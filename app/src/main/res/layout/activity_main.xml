@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+
+    <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/a" />
+
+
+
+    <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="โตขึ้นอีกปีแล้ว ขอให้มีความสุขมากๆ"
+            android:background="#E5F5F7"
+            android:textSize="20sp"
+            android:layout_below="@id/imageView"
+            android:layout_centerHorizontal="true"/>
+
+
+    <TextView
+            android:layout_width="378dp"
+            android:layout_height="51dp"
+            android:layout_below="@id/imageView"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="71dp"
+            android:layout_marginBottom="92dp"
+            android:text="   สุขสันวันเกิดเจ้าแพท"
+            android:textSize="40sp" />
+
+    <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="200dp"
+            android:layout_height="300dp"
+            android:src="@drawable/PAT"
+            android:layout_centerInParent="true"/>
+
+</RelativeLayout>
